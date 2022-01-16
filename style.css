@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;  
     
@@ -13,7 +15,6 @@ body{
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    padding:0 20 ;
 }
 nav{
     display: flex;
@@ -132,3 +133,25 @@ footer{
     font-size: 30px;
     padding: 10px;
 }
+
+@media only screen and (max-width:450px) {
+ .collections{
+
+     grid-template-columns: repeat(1, 1fr);
+     width: 100%;  
+
+
+
+}
+.container{
+    max-width: 100%;
+}
+ }
+ 
+ 
+ .first-section{
+     grid-template-columns: repeat(1, 1fr);
+     max-width: 100%;
+ }
+
+
